@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Inter{
+  font-family: 'Inter', sans-serif;
+}
+.Fredoka{
+  font-family: 'Fredoka', sans-serif;
+}
+
+.gradient-bg{
+  background: linear-gradient(180deg, #2C293E 0%, rgba(44, 41, 62, 0.76) 33.33%, rgba(44, 41, 62, 0.87) 66.67%, rgba(44, 41, 62, 0.56) 100%);
+}
